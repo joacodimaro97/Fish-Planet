@@ -7,6 +7,14 @@ module.exports = {
   theme: {
       extend: {}
   },
+  theme: {
+    fontFamily: {
+      'sans': ['Roboto', 'Arial', 'sans-serif'],
+      'serif': ['Georgia', 'serif'],
+      'mono': ['Monaco', 'monospace'],
+      'open' : [ 'Open Sans', 'sans-serif']
+    }
+  },
   variants: {},
   plugins: []
 }
